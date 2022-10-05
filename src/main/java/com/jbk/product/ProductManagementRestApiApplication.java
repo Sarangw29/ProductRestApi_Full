@@ -11,6 +11,7 @@ public class ProductManagementRestApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductManagementRestApiApplication.class, args);
+                 systeam.out.println("dev1 changes");       
 	}
 	
 	@Bean
