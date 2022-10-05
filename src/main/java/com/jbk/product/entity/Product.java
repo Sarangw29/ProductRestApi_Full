@@ -11,7 +11,7 @@ public class Product {
 	@Id
 	private String productId; // camel case
 
-	@NotNull(message = "ProductName is required")
+	@NotNull(message = "ProductName is required") //notnull
 	private String productName;
 
 	@Min(1)
